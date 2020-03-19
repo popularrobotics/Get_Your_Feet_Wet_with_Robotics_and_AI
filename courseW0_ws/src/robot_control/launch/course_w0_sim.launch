@@ -1,0 +1,20 @@
+<launch>
+
+  <!-- First, launch "simulation_visualization". Node creates the 2D simulation of the track, obstacles and robot within the track.
+  Output is stored in image "" and published over the topic "simulation/visualization" -->
+  <node name="simulation_visualization" pkg="robot_control" type="simulation_visualization" output="screen">
+  </node>
+
+  <!-- Then, launch "robot_control". Node creates the motion of the robot and receives data from the simulation node. -->
+  <node pkg="robot_control" name="course_w0" type="course_w0_sim.py" output="screen">
+  </node>
+
+  <!-- Last, launch "image_view" to see the visualization results from topic "simulation/visualization" -->
+  <!--
+  <node name="image_view" pkg="image_view" type="image_view" respawn="false" output="screen">
+      <remap from="image" to="simulation/visualization"/>
+      <param name="autosize" value="true" />
+  </node>
+  -->
+
+</launch>

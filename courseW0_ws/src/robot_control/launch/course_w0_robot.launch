@@ -1,0 +1,9 @@
+<launch>
+
+
+  <!-- Then, launch "robot_control". Node creates the motion of the robot. -->
+  <node pkg="robot_control" name="course_w0" type="course_w0_robot.py" output="screen">
+  </node>
+
+
+</launch>

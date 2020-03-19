@@ -1,0 +1,3 @@
+float64 left_sensor_distance
+float64 front_sensor_distance
+float64 right_sensor_distance
