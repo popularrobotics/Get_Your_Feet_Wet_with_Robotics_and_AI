@@ -1,2 +1,2 @@
 # Get Your Feet Wet with Robotics and AI
-This is a free course provided by Popular Robotics Inc, with tutorials, code examples and exercises. If you're curious about robotics &amp; AI, this is a perfect place to start! It's fun!
+This is a free course (W0) provided by Popular Robotics Inc. This repository hosts all the code needed for the course, and you can installed them on a compatible robot. For complete course with tutorials, code examples and exercises, check out our course platform [Robociti](www.robociti.com) :D If you're curious about robotics &amp; AI, this is a perfect place to start! It's fun!
